@@ -1,0 +1,9 @@
+
+{
+  "name": "Cloud Native Todo K8s Orchestrator",
+  "description": "A high-fidelity dashboard for Phase IV Local Kubernetes Deployment, featuring AI-assisted DevOps workflows for Minikube, Helm, and Docker AI Agent (Gordon).",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
