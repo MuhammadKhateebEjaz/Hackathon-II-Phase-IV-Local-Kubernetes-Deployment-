@@ -35,7 +35,7 @@ const App: React.FC = () => {
     const lowerCmd = cmd.toLowerCase();
     if (lowerCmd.includes('scale') || lowerCmd.includes('replica')) {
       const newPod: PodStatus = { 
-        name: `todo-frontend-${Math.random().toString(36).substr(2, 5)}`, 
+        name: `todo-frontend-${Math.random().toString(36).substring(2, 7)}`, 
         status: 'Pending', 
         restarts: 0, 
         age: '1s' 
