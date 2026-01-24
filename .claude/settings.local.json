@@ -3,7 +3,8 @@
     "allow": [
       "Bash(npm install)",
       "Bash(npm run build)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nProject setup and initial files\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }
